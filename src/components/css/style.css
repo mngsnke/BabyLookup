@@ -1,0 +1,28 @@
+.navbar-bg {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6362920168067228) 0%, rgba(14,12,6,0) 80%);
+}
+.submit-button {
+    background: linear-gradient(60deg, rgba(255,2,168,1) 0%, rgba(207,1,212,1) 51%, rgba(158,0,255,1) 94%);
+}
+.slogan-right {
+    text-align: right;
+}
+
+.form-width {
+    width: 100%;
+}
+
+.sidebar {
+    width: 25vh;
+    position: relative;
+    display: block;
+}
+
+.sidebar-match {
+    display:inline;
+}
+
+.sidebar-text {
+    font-size: 3vh;
+}
