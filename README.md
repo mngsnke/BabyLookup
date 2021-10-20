@@ -7,8 +7,8 @@ Make sure you have the latest node.js installed (hindi yung stable release, yung
 3. Run npm start
 
 # URL Breakpoints
-/ - login page
-/register - register page
-/home - supposed homepage once registered
+1. / - login page
+2. /register - register page
+3. /home - supposed homepage once registered
 
 Example when hosted locally - localhost:3000/home
