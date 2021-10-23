@@ -1,5 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Card, CardBody} from "shards-react"
+import Image from "react-bootstrap/Image"
+import img from "./images/kyle.jpg"
 
 function Match() {
     return (
@@ -12,11 +14,10 @@ function Match() {
 
                     {/* Profile Card Column */}
                     <Col lg="4">
+                        
                         <Card>
-                            <CardBody>
-                                <h1>
-                                    Match Window
-                                </h1>
+                            <CardBody style={{padding: "0"}}>
+                                <Image src={img} alt="no load oh no" rounded style={{width: "100%", height: "100%"}} />
                             </CardBody>
                         </Card>
                     </Col>
