@@ -24,20 +24,20 @@ function Home() {
                 </Row>
             </Container> */}
             <Router>
-            <Container fluid className="mh-100">
+            <Container fluid>
                 {/* <Card style={{ height: "85vh" }}>
                     <CardBody> */}
 
                         <Row>
                             <Col lg="1"> 
-                                <Card style={{position: "absolute", background: "linear-gradient(60deg, rgba(255,2,168,1) 0%, rgba(207,1,212,1) 51%, rgba(158,0,255,1) 94%)"}}>
+                                <Card style={{position: "absolute", background: "linear-gradient(60deg, rgba(255,2,168,1) 0%, rgba(207,1,212,1) 51%, rgba(158,0,255,1) 94%)", width: "10vw"}}>
                                     <CardBody>
                                         <Sidebar />  
                                     </CardBody>
                                 </Card>
                                 </Col>
                                 <Col>
-                                <Card style={{boxShadow: "none", borderRadius: "0px 10px 10px 0px", height: "85vh"}}>
+                                <Card style={{boxShadow: "none", borderRadius: "0px 10px 10px 0px", minHeight: "85vh"}}>
                                     <CardBody>
                                         <Switch>
                                             <Route exact path={`${path}/`} component={Match} />
