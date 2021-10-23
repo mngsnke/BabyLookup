@@ -10,13 +10,13 @@ function Sidebar() {
         <div>
             <Link className="align-middle" to="/home">
             <Row style={{fontSize: "1em"}} className="sidebar-text text-white">
-                <Col lg="2"><Heart /></Col>
+                <Col lg="2" style={{padding: "0"}}><Heart /></Col>
                 <Col>Find a Match</Col> 
             </Row>
             </Link>
             <Link to="/home/chat">
                 <Row style={{fontSize: "1em"}} className="sidebar-text text-white">
-                    <Col lg="2"><ChatDots /></Col>
+                    <Col lg="2" style={{padding: "0"}}><ChatDots /></Col>
                     <Col>Chat</Col>
                 </Row>
             </Link>
